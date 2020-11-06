@@ -1,3 +1,6 @@
+body{
+    background-image: url(assets/images/topography.png);
+}
 .center{
     text-align: center;
     font-size: medium;
@@ -22,6 +25,13 @@ hr{
     border-bottom-width: 2pt;
     border-bottom-style: dashed;
 }
+hr.hrrolam {
+    width: 10em;
+    border-left: 10em;
+    border-right: 10em;
+    border-bottom: 1pt solid #8c8b8b;
+    border-top: 1px solid #8c8b8b;
+}
 p{
     text-align: left;
 }
@@ -32,8 +42,8 @@ p{
 /*:link{
     background-color: #333333;
 }*/
-.kep1{
+.kep{
     align-content: center;
-    width: 24%;
-    height: 24%;
+    width: 70%;
+    height: 70%;
 }
