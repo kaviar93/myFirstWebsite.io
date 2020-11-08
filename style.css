@@ -20,6 +20,7 @@ svg{
     width: 40px;
     text-align: left;
 }
+
 section{
     text-align: left;
 
@@ -34,8 +35,6 @@ a{
 body{
     background-image: url(assets/images/topography.png);
     margin: 0%;
-    /*font-size: medium;
-    width: 100%;*/
     padding-left: 10%;
     padding-right: 10%;
     font-family: 'Courier New', Courier, monospace;
@@ -43,7 +42,7 @@ body{
 .alcim{
     color: #ff0099;
 }
-hr.hrrolam {
+hr.hrvonal {
     width: 10em;
     border-left: 10em;
     border-right: 10em;
@@ -62,5 +61,7 @@ article{
 img{
     width: 70%;
     height: 70%;
-    padding-top: 5%;
-    }
+    padding-left: 15%;
+    padding-right: 15%;
+    vertical-align: middle;
+}
