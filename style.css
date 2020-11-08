@@ -1,3 +1,9 @@
+@font-face{
+    font-family: "myFirstFont";
+    src: url(assets/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 nav{
     display: block;
     box-sizing: border-box;
@@ -40,7 +46,7 @@ body{
 .alcim{
     color: #ff0099;
 }
-hr.hrvonal {
+hr.hrline {
     width: 10em;
     border-left: 10em;
     border-right: 10em;
@@ -64,7 +70,8 @@ img{
 #stallman{
     padding: 0%;
 }
-@font-face{
+#name{
+    padding-top: 10%;
+    font-size: 30pt;
     font-family: "myFirstFont";
-    src: url(assets/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
