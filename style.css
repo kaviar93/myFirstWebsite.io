@@ -1,27 +1,47 @@
+nav{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 2em;
+    background-color: #333333;
+    text-align: right;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+}
+svg{
+    border-block-start-width: unset;
+    height: 40px;
+    width: 40px;
+    text-align: left;
+}
+section{
+    text-align: left;
+
+}
+a{
+    color: #ff0099;
+    font-size: large;
+    align-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 body{
     background-image: url(assets/images/topography.png);
-    text-align: center;
-    font-size: medium;
+    margin: 0%;
+    /*font-size: medium;
+    width: 100%;*/
     padding-left: 10%;
     padding-right: 10%;
     font-family: 'Courier New', Courier, monospace;
 }
-.header{
-    background-color: #333333;
-}
-a{
-    color: #ff0099;
-}
 .alcim{
     color: #ff0099;
-}
-hr{
-    width: 2em;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-width: 2pt;
-    border-bottom-style: dashed;
 }
 hr.hrrolam {
     width: 10em;
@@ -33,15 +53,14 @@ hr.hrrolam {
 p{
     text-align: left;
 }
+article{
+}
 .email{
     text-align: center;
     color: blue;
 }
-/*:link{
-    background-color: #333333;
-}*/
-.kep{
-    align-content: center;
+img{
     width: 70%;
     height: 70%;
-}
+    padding-top: 5%;
+    }
